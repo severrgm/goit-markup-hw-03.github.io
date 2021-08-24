@@ -304,6 +304,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 34px;
+  margin-bottom: 94px;
 }
 .works-item-header {
   font-weight: 700;
