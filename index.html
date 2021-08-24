@@ -9,38 +9,47 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 
 <body>
   <header class="header">
-   <nav class="header-navigation">
+   
+    <nav class="header-navigation">
+        <div class="nav-container container">
         <a class="header-logo link" href="" >
             Web<span class="header-accent">Studio</span>
         </a>
+    
         <ul class="header-list list">
             <li class="header-item"><a  href="index.html" class="header-link link current">Студия</a></li>
             <li class="header-item"><a  href="portfolio.html" class="header-link link">Портфолио</a></li>
             <li class="header-item"><a  href="" class="header-link link">Контакты</a></li>
             
         </ul>
-        
-        
-   </nav>
+         
         <ul class="header-right list">
-            <li class="header-mail"><a class="header-link-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="header-tel"><a class="header-link-contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>   
+            <li class="contacts-item"><a class="header-link-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-item"><a class="header-link-contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul> 
+        </div>
+        </nav>
   </header>  
   <main>
     
         <section class="hero-section">
+            <div class="container">
+            <div class="hero-title">
             <h1>
                 Эффективные решения для вашего бизнеса
             </h1>
+            </div>
             <button class="btn" type="button">Заказать услугу</button>
+            </div>
         </section>
     
+    <div class="container">
     <section class="benefits-section">
         <ul class="benefits-list list">
             <li class="benefits-item">
@@ -57,6 +66,8 @@
             </li>
         </ul>
     </section>
+    </div>
+    <div class="container">
     <section class="work-section">
         <h2 class="work-header">Чем мы занимаемся</h2>
         <ul class="work-list list">
@@ -71,31 +82,46 @@
             </li>
         </ul>
     </section>
+    </div>
+    <div class="container">
     <section class="command-section">
         <h2 class="command-header">Наша команда</h2>
         <ul class="command-list list">
             <li class="command-item">
+                <div class="command-item-member">
                 <img src="./img/img4.jpg" alt="Product Designer" width="270" height="260">
-                <h3 class="command-item-header">Игорь Демьяненко</h3><p class="command-item-text">Product Designer</p>
+                <h3 class="command-item-header">Игорь Демьяненко</h3>
+                <p class="command-item-text">Product Designer</p>
+                </div>
             </li>
             <li class="command-item">
+                <div class="command-item-member">
                 <img src="./img/img5.jpg" alt="Frontend Developer" width="270" height="260">
-                <h3 class="command-item-header">Ольга Репина</h3><p class="command-item-text">Frontend Developer</p>
+                <h3 class="command-item-header">Ольга Репина</h3>
+                <p class="command-item-text">Frontend Developer</p>
+                </div>
             </li>
             <li class="command-item">
+                <div class="command-item-member">
                 <img src="./img/img6.jpg" alt="Marketing" width="270" height="260">
-                <h3 class="command-item-header">Николай Тарасов</h3><p class="command-item-text">Marketing</p>
+                <h3 class="command-item-header">Николай Тарасов</h3>
+                <p class="command-item-text">Marketing</p>
+                </div>
             </li>
             <li class="command-item">
+                <div class="command-item-member">
                 <img src="./img/img7.jpg" alt="UI Designer" width="270" height="260">
-                <h3 class="command-item-header">Михаил Ермаков</h3><p class="command-item-text">UI Designer</p>
+                <h3 class="command-item-header">Михаил Ермаков</h3>
+                <p class="command-item-text">UI Designer</p>
+                </div>
             </li>
         </ul>
     </section>
-    
+    </div>
   </main>
 
 <footer class="footer">
+    
     <a class="footer-logo link" href="">
         Web<span class="footer-accent">Studio</span>
     </a>
@@ -112,6 +138,7 @@
             </li>
         </ul>
     </address>
+    
 </footer>
   
   
