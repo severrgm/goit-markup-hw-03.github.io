@@ -99,10 +99,20 @@ section {
 
   color: #757575;
 }
+.header-navigation {
+  display: flex;
+}
+.header-logo.link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 /*-----HERO-----*/
 
 .hero-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   text-align: center;
 }
@@ -142,6 +152,7 @@ h1 {
 }
 .benefits-section {
   margin-top: 0px;
+  padding-top: 94px;
 }
 .benefits-item-header {
   margin-top: 0px;
@@ -188,7 +199,6 @@ h1 {
 .command-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -274,7 +284,7 @@ h1 {
 /*-----PORTFOLIO-----*/
 .btn-list {
   display: flex;
-  margin-top: 94px;
+  padding-top: 94px;
   padding-left: 277px;
   padding-right: auto;
 }
@@ -282,6 +292,7 @@ h1 {
   margin-left: 8px;
 }
 .btn-item {
+  padding: 6px 22px 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
