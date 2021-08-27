@@ -224,6 +224,7 @@ h1 {
 }
 .command-item {
   background-color: #ffffff;
+  width: 270px;
 }
 .command-header {
   margin-top: 0px;
@@ -236,7 +237,6 @@ h1 {
   color: var(--main-title-color);
 }
 .command-item-header {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -247,7 +247,6 @@ h1 {
 }
 .command-item-text {
   margin-top: 0px;
-  margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -255,8 +254,10 @@ h1 {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+
 .command-item-member {
-  width: 270px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*----FOOTER------*/
@@ -273,7 +274,6 @@ p {
 
 .footer-logo {
   display: block;
-  margin-left: 215px;
   margin-bottom: 20px;
   font-family: Raleway;
   font-style: normal;
@@ -286,9 +286,7 @@ p {
 .footer-accent {
   color: #ffffff;
 }
-address {
-  margin-left: 215px;
-}
+
 .address {
   font-style: normal;
 }
@@ -300,7 +298,7 @@ address {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-mail {
+.mail-li {
   margin-bottom: 9px;
 }
 .footer-mail,
@@ -316,7 +314,7 @@ address {
 h3 {
   margin: 0px 0px 0px 0px;
 }
-.works-section {
+.section-portfolio {
   padding-top: 94px;
 }
 
